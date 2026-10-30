@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-cinzel: 'Cinzel', serif;
+    --font-script: 'Alex Brush', 'Great Vibes', cursive;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #FAF7F2;
+    color: #2D241E;
+    overflow-x: hidden;
+  }
+}
+
+.font-serif-luxury {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-script {
+  font-family: 'Alex Brush', cursive;
+}
+
+.font-sans-clean {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+/* Gold Metallic Foil Gradient */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #A88234 0%, #D4AF37 35%, #F3E5AB 50%, #C59B27 70%, #916B19 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #B89240 0%, #DFBA54 30%, #F5E7B2 50%, #CA9F2E 70%, #9E741D 100%);
+}
+
+.gold-border-gradient {
+  border-image: linear-gradient(135deg, #C59B27, #F5E7B2, #A88234) 1;
+}
+
+.gold-glow {
+  box-shadow: 0 10px 30px -5px rgba(212, 175, 55, 0.25), 0 0 15px 0 rgba(245, 231, 178, 0.15);
+}
+
+.parchment-card {
+  background: linear-gradient(180deg, #FFFFFF 0%, #FDFBF7 100%);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  box-shadow: 0 12px 35px -8px rgba(90, 70, 50, 0.08), 0 2px 6px -1px rgba(90, 70, 50, 0.04);
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF7F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #D8C7B5;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #BFA58E;
+}
+
+/* 3D Envelope perspective */
+.perspective-1000 {
+  perspective: 1000px;
+}
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+.backface-hidden {
+  backface-visibility: hidden;
+}
+

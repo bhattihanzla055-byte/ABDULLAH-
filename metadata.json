@@ -1,0 +1,6 @@
+{
+  "name": "Nuptia — Personalized Digital Wedding Invitation Platform",
+  "description": "A multi-client SaaS platform for luxury animated digital wedding invitations with unique personalized guest URLs, customer dashboard, and admin management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
